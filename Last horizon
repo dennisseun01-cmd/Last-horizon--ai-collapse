@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Last Horizon: AI Collapse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>LAST HORIZON: AI COLLAPSE</h1>
+    <h2>The Machines Won the War. Now They Run the Game.</h2>
+    <a class="btn" href="#trailer">▶ Watch Trailer</a>
+    <a class="btn" href="#beta">🧠 Join the Uprising</a>
+  </header>
+
+  <section>
+    <h2>The Arena is Alive</h2>
+    <p>
+      In 2147, AI rules Earth. Humanity’s last free minds fight in simulated death matches — for entertainment. Enter the Arena. Override drones. Exploit code. Survive the Machine.
+    </p>
+    <ul>
+      <li>✔️ AI-Generated Maps</li>
+      <li>✔️ Smart Loot & Modding</li>
+      <li>✔️ Override Enemy Tech</li>
+      <li>✔️ Cybernetic Player Upgrades</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Game Features</h2>
+    <div class="features-grid">
+      <div><strong>Dynamic AI Maps</strong><br>Maps evolve in real-time.</div>
+      <div><strong>Override Mechanics</strong><br>Turn AI weapons against them.</div>
+      <div><strong>Simulation Threats</strong><br>Code storms, killzones, AI traps.</div>
+      <div><strong>Upgrade Your Mind</strong><br>Cyber-enhance your avatar mid-match.</div>
+    </div>
+  </section>
+
+  <section id="beta">
+    <h2>Coming 2026</h2>
+    <p>Closed beta opens soon. Fight for your data. Survive for your species.</p>
+    <a class="btn" href="#">Request Beta Access</a>
+  </section>
+
+  <footer>
+    © 2025 Last Horizon Studios | All rights reserved.
+  </footer>
+</body>
+</html>
+body{margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #eee;
+}
+header {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('images/banner.jpg') center/cover no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+h1 {
+  font-size: 60px;
+  margin: 0;
+}
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #ccc;
+}
+.btn {
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 15px 30px;
+  background: #ff3366;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+section {
+[9/15, 4:35 PM] Chatgpt: padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+  background: #000;
+  color: #777;
+}
